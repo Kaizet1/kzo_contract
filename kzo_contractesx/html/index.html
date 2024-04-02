@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+   <div class="container">
+      <div class="blur1"></div>
+      <div class="rec1"></div>
+      <div class="blur2"></div>
+      <img id="keyimg" src="imgs/key.png">
+      <span id="svname">KZO</span>
+      <span id="header">VEHICLE TRANSFER</span>
+      <div class="framereceiver">
+         <img id="icon" src="imgs/user.png">
+         <span id="label">Recipient</span>
+         <span id="text"></span>
+      </div>
+      <div class="frameplate">
+         <img id="icon" src="imgs/car.png">
+         <span id="label">Vehicle plate</span>
+         <span id="text">ABC 1234</span>
+      </div>
+      <img id="bigcar" src="imgs/bigcar.png">
+      <div id="transfer-button">TRANSFER</div>
+   </div>
+
+   <div class="container2">
+      <div class="blur1"></div>
+      <div class="rec1"></div>
+      <div class="blur2"></div>
+      <img id="keyimg" src="imgs/key.png">
+      <span id="svname">KZO</span>
+      <span id="header">TRANSFER CONFIRMATION</span>
+      <div class="framereceiver">
+         <img id="icon" src="imgs/user.png">
+         <span id="label">Transfer signature</span>
+         <span id="sign"></span>
+         <div id="line"></div>
+      </div>
+      <div class="frameplate">
+         <img id="icon" src="imgs/car.png">
+         <span id="label">Vehicle plate</span>
+         <span id="text">ABC 1234</span>
+      </div>
+      <img id="bigcar" src="imgs/bigcar.png">
+      <div id="confirm-button">CONFIRM</div>
+   </div>
+
+   <script src="app.js" type="text/javascript"></script>
+   <audio id="sound" src="button.wav"> </audio>
+</body>
+
+</html>
